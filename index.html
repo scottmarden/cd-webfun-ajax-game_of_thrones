@@ -4,16 +4,24 @@
 		<meta charset="utf-8" />
 		<title>Game of Thrones</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script type="text/javascript"></script>
+		<script type="text/javascript" src="script.js"></script>
 		<link type="text/css" rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<div id="wrapper">
 			<div id="houses">
-
+				<img id="362" src="images/stark.jpg" alt="house stark" />
+				<img id="378" src="images/targaryen.jpg" alt="house targaryen" />
+				<img id="229" src="images/lannister.jpg" alt="house lannister" />
+				<img id="15" src="images/baratheon.png" alt="house baratheon" />
 			</div>
-			<div id="houseInfo">
-				
+			<div id="content">
+				<h4>Click an image to reveal details about the houses</h4>
+				<div id="houseInfo">
+					<h1 id="houseName"></h1>
+					<h3 id="houseWords"></h3>
+					<p id="houseTitles"></p>
+				</div>
 			</div>
 		</div>
 	</body>
